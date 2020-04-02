@@ -12,6 +12,7 @@
 - Redux
 - YouTube Data API
 - Webpack
+- Axios
 
 ---
 
@@ -19,13 +20,17 @@
 
 ### 搜尋功能
 
-- 串接 YouTube Data API，在搜尋框輸入中文或英文關鍵字可呈現搜尋結果
+在搜尋框輸入中文或英文關鍵字可呈現搜尋結果
+
+- 使用 Axios Get YouTube Data API 的搜尋結果
 - 使用 redux 將搜尋結果存在 store 中
 - 點擊會連結至該影片 YouTube 網站
 
 ---
 
 ### Infinite scroll
+
+使用者下滑到頁面底端時即會自動載入下一頁的資料
 
 - 搜尋結果一頁為 10 筆
 - 當滑動到底部時，會自動顯示出下一頁
@@ -34,6 +39,8 @@
 ---
 
 ### RWD
+
+支援平板與手機尺寸
 
 - Pad
 - Mobile

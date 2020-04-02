@@ -30,7 +30,7 @@ class Searchbar extends React.Component {
               value={this.state.term}
               placeholder="search ..."
             />
-            <img src={searchImg} />
+            <img src={searchImg} onClick={this.handleSubmit} />
           </div>
         </form>
       </div>
